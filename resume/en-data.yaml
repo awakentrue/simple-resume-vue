@@ -1,0 +1,47 @@
+lang: en
+
+name:
+  first: Thomas
+  last: Shelby
+
+position: Peaky Blinder
+
+contacts:
+  phone: 8800XXXXXXX
+  email: thomashelby@gmail.com
+  linkedIn: thomashelby
+
+profile: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit suscipit, quidem velit, laboriosam mollitia ducimus animi maxime, libero perspiciatis architecto. Sint magnam numquam tenetur temporibus ab cum omnis ipsum!
+
+skills:
+- "Skill #1"
+- "Skill #2"
+- "Skill #3"
+- "Skill #4"
+- "Skill #5"
+- "Skill #6"
+
+experience:
+- workPosition: Work position
+  workPeriod: 2019 - 2021
+  companyName: Company name
+  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum omnis iste non soluta, fugit sequi doloribus eos nesciunt distinctio nihil ea labore dolorum? Obcaecati ipsa dolorem consequatur, sapiente illo ut?
+
+- workPosition: Work position
+  workPeriod: 2017 - 2019
+  companyName: Company name
+  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at, veritatis voluptatum esse dolorum aliquid saepe quam animi ipsa? Tempora quod cum repudiandae possimus? Ex labore illum alias ipsum totam.
+
+- workPosition: Work position
+  workPeriod: 2015 - 2017
+  companyName: Company name
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ea temporibus ipsa harum. Cumque earum minus debitis doloribus! Nesciunt animi atque ad. Maxime dolor expedita, veritatis aspernatur nisi velit asperiores.
+
+education:
+- degreeTitle: Degree title
+  institutionName: University name
+  studyDirection: Study direction
+
+- degreeTitle: Degree title
+  institutionName: University name
+  studyDirection: Study direction
