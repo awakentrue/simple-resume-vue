@@ -5,7 +5,6 @@
 Simple universal responsive resume based on Vue.
 
 ## Features
----
 * [x] Multi-language support
 * [x] Language switcher
 * [x] Simple resume data format in *.yaml
@@ -13,7 +12,6 @@ Simple universal responsive resume based on Vue.
 * [] Printer-friendly
 
 ## Quick Start
----
 1. Fork/clone this repository.
 ```
  git clone https://github.com/awakentrue/simple-resume-vue.git 
