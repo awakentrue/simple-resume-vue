@@ -9,7 +9,7 @@ Simple universal responsive resume based on Vue.
 * [x] Language switcher
 * [x] Simple resume data format in *.yaml
 * [x] Responsive layout (mobile | tablet | desktop)
-* [] Printer-friendly
+* [x] Printer-friendly
 
 ## Quick Start
 1. Fork/clone this repository.

@@ -130,4 +130,15 @@ export default {
     padding: 0px 20px 0 20px !important;
   }
 }
+
+@media print {
+  .wrapper {
+    grid-template-areas:
+      "header header"
+      "contacts profile"
+      "skills experience"
+      "education experience"
+      "expertise experience";
+  }
+}
 </style>
