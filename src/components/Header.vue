@@ -1,5 +1,11 @@
 <template>
-  <LanguageSwitcher class="language-switcher" />
+  <section class="actions-section">
+    <LanguageSwitcher class="language-switcher" />
+    <button class="print-button" @click="openPrintPage">
+      <img src="@/assets/print.svg" />
+    </button>
+  </section>
+
   <div class="box">
     <div class="person-info">
       <Title class="person-info-name" :text="fullName" />
@@ -37,13 +43,40 @@ export default {
       return this.currentResumeData.position;
     },
   },
+
+  methods: {
+    openPrintPage() {
+      window.print();
+    },
+  },
 };
 </script>
 
 <style scoped>
-.language-switcher {
+.actions-section {
+  display: flex;
   position: absolute;
+  align-items: center;
+}
+
+.language-switcher {
   padding: 10px;
+}
+
+.print-button {
+  padding: 10px;
+  margin: 10px 10px 10px -10px;
+  width: auto;
+  height: auto;
+  border: none !important;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.print-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-out;
 }
 
 .person-info {
@@ -97,11 +130,21 @@ export default {
   .person-info-position {
     text-align: center;
   }
+
+  .actions-section {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 
 @media print {
-  .language-switcher {
+  .actions-section {
     display: none;
+  }
+
+  .box {
+    padding-top: 0px;
+    flex-direction: column-reverse;
   }
 }
 </style>
