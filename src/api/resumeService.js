@@ -1,5 +1,6 @@
 import enData from "../../resume/en-data.yaml";
 import ruData from "../../resume/ru-data.yaml";
+import frData from "../../resume/fr-data.yaml";
 
 export const languages = [
   {
@@ -26,7 +27,20 @@ export const languages = [
       experience: "Опыт работы",
       professional: "Профессиональные",
       education: "Образование",
+    }
     },
+    {
+      name: "Français",
+      code: "fr",
+      data: frData,
+      resumeLabels: {
+        contacts: "Contacts",
+        profile: "Profil",
+        skills: "Compétences",
+        experience: "Expérience",
+        professional: "professionnelle",
+        education : "Formation"
+      }
   },
 ];
 
