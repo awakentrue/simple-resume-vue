@@ -28,19 +28,19 @@ export const languages = [
       professional: "Профессиональные",
       education: "Образование",
     }
-    },
-    {
-      name: "Français",
-      code: "fr",
-      data: frData,
-      resumeLabels: {
-        contacts: "Contacts",
-        profile: "Profil",
-        skills: "Compétences",
-        experience: "Expérience",
-        professional: "professionnelle",
-        education : "Formation"
-      }
+  },
+  {
+    name: "Français",
+    code: "fr",
+    data: frData,
+    resumeLabels: {
+      contacts: "Contacts",
+      profile: "Profil",
+      skills: "Compétences",
+      experience: "Expérience",
+      professional: "professionnelle",
+      education : "Formation"
+    }
   },
 ];
 
